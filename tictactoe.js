@@ -41,7 +41,7 @@ function mouseClicked() {
       game = false;
       drawString("Game Over!\n" + prevTurn + " Wins!");
     }
-    if(isDraw()){
+    else if(isDraw()){
       game = false;
       drawString("Its a draw!");
     }
